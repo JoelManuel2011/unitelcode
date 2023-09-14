@@ -1,0 +1,44 @@
+.hd{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 100px;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+}
+.menu,ul{
+padding:10px;
+align-items: center;
+}
+.menu,ul,li{
+    display: flex;
+    padding-left: 15px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration:underline;
+    color:orange;
+}
+
+button{
+    background-color:rgba(49, 148, 206, 0.527);
+    color: white;
+    border-radius: 10px;
+    width: 180px;
+    height:40px;
+    font-size: 18px;
+}
+
+.uc{
+    width: 100%;
+}
+

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.carousel{
+    margin-bottom: 60px;
+}
+
+.cursos{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    width: 100%;
+
+}
+
+#sobre{
+    width: 30%;
+    margin-left: 70px;
+}
+
+@keyframes typing{
+
+    from{
+        width: 0;
+    }
+    
+    to{
+        width: 100px;
+    }
+
+}
+
+.paragrafo{
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #333;
+    animation: typing 4s steps(140, end) infinite;
+}
